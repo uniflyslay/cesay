@@ -1,0 +1,19 @@
+public class Signature
+{
+    public static void main(String[] args)
+    {
+        char Initial1 ='J';
+        char Initial2='K';
+        int Month=8;
+        int Day=10;
+        int Year=2025;
+        System.out.println("Initials:");
+        System.out.println(Initial1);
+        System.out.println(Initial2);
+        System.out.println("");
+        System.out.println("Date:");
+        System.out.println(Month);
+        System.out.println(Day);
+        System.out.println(Year);
+    }
+}

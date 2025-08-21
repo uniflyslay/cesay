@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class PhotoWallPlanner
+{
+    public static void main(String[] args)
+    {
+        Scanner input= new Scanner(System.in);
+        int wallHeight = 96;
+        System.out.println("What is the height of each picture?");
+        int height = input.nextInt();
+        double rows=(double)wallHeight/height;
+        int completeRows = wallHeight/height;
+        int inchesLeft= wallHeight%height;
+        System.out.println("Total rows (including partial rows): "+rows);
+        System.out.println("Complete rows: "+completeRows);
+        System.out.println("Inches left: "+inchesLeft);
+    }
+}

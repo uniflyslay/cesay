@@ -1,0 +1,11 @@
+public class RoundOff
+{
+    public static void main(String[] args)
+    {
+        double convrtion= 0.034567;
+        int bal=100000;
+        double  solari=bal*convrtion;
+        System.out.println("Solari: "+solari);
+        
+    }
+}

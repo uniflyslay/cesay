@@ -1,0 +1,22 @@
+public class TipCalculator
+{
+    public static void main(String[] args)
+    {
+        double meal = 25.99;
+        double appetizer = 6.50;
+        double drink = 3.99;
+        
+        // Create variables to store the different tip options
+        double total =(25.99+6.5+3.99);
+        double x=total*.15;
+        double a=total*.2;
+        double c=total*.25;
+        
+        // Print out the total and different amounts for each tip option
+    
+    System.out.println("Total cost of the meal: "+ total);
+    System.out.println("15% tip amount: "+x);
+    System.out.println("20% tip amount: "+a);
+    System.out.println("25% tip amount: "+c);
+    }
+}
